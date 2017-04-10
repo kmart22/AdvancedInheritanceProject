@@ -1,5 +1,6 @@
 package advanced.cotroller;
 
-public class InheritanceController {
+public class InheritanceController 
+{
 
 }
