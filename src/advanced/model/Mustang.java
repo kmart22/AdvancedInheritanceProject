@@ -1,37 +1,40 @@
 package advanced.model;
 
+
+
 public class Mustang extends Car
 {
-	public Mustang (String name, int speed)
+	public Mustang ()
 	{
-		flammability = 10;
+		super("Mustang", 160);
+		flammability = 0;
 	}
 	
-	
+	@Override
 	public boolean isFlammable()
 	{
 		return false;
 	}
 	
-	
+	@Override
 	public boolean isFlameRetardant()
 	{
 		return true;
 	}
 	
-	
+	@Override
 	public boolean isDrenchedInLighterFluid()
 	{
 		return true;
 	}
 	
-	
-	public int setFlammabilityLevel(int level)
+	@Override
+	public void setFlammabilityLevel(int level)
 	{
 		this.flammability = level;
 	}
 	
-	
+	@Override
 	public int getFlammabilityLevel()
 	{
 		return flammability;

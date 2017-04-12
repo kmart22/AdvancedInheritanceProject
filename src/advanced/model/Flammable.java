@@ -15,6 +15,6 @@ public interface Flammable
 	public boolean isDrenchedInLighterFluid();
 	
 	public int flammability = 0;
-	public int setFlammabilityLevel(int level);
+	public void setFlammabilityLevel(int level);
 	public int getFlammabilityLevel();
 }
